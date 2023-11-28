@@ -1,0 +1,91 @@
+table {
+  border-collapse: collapse;
+  width: 540px;
+  /* background-image: url("./plain-dark-black-wall-with-wooden-floor-product-background.jpg"); */
+  /* background: linear-gradient(45deg,rgb(0, 0, 0),rgb(37, 36, 36)); */
+  background: transparent;
+
+}
+
+th, td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  /* text-align: center; */
+  text-align: center;
+  color: white;
+  outline-offset: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.action{
+  /* padding-left: 4%; */
+}
+.id{
+  padding-left: 4%;
+}
+.username{
+  padding-left: 4%;
+}
+
+th {
+  background-color: transparent;
+  color: white;
+  width: 100px;
+}
+td{
+  height: 70px;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.view-btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  margin-left: 18%;
+}
+
+.edit-btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+
+.delete-btn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+}
+body{
+  background-color: black;
+
+}
+.tablemain{
+  margin-left: 29%;
+  /* margin-bottom: 20%; */
+  margin-top: 10%;
+}
+.View,.Edit,.delete{
+  padding: 6px 20px;
+ border: 1px solid white;
+ border-radius: 4px;
+ /* width: 20%; */
+ 
+ text-decoration: none;
+ color: white;
+ margin-left: 20px;
+ font-size: 12px;
+
+}
+.Edit{
+  color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.delete{
+  color: red;
+}
+span{
+  color: #ffffff;
+}
